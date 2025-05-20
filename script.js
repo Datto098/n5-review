@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+	// Khởi tạo ResponsiveVoice
+	if (typeof responsiveVoice !== 'undefined') {
+		responsiveVoice.init();
+	}
+
 	let lessons = [];
 	let currentQuizVocab = [];
 	let currentCardIndex = 0;
@@ -90,12 +95,15 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 
             <div class="vocab-list">
-                <h3>Từ vựng</h3>
-                ${lesson.vocabulary
+                <h3>Từ vựng</h3>                ${lesson.vocabulary
 					.map(
 						(vocab) => `
                     <div class="vocab-item">
-                        <strong>${vocab.word}</strong> - ${vocab.meaning}
+                        <div class="vocab-content">
+                            <strong>${vocab.word}</strong> - ${vocab.meaning}
+                        </div>                        <button class="vocab-speak-btn" onclick="speakJapanese('${vocab.word}')">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </button>
                     </div>
                 `
 					)
@@ -306,15 +314,237 @@ document.addEventListener('DOMContentLoaded', () => {
 			updateCard();
 		}
 	});
+	const UNSPLASH_ACCESS_KEY = 'qnGQNTI93hS0mbWtlkz_UbAAF6pZUKW6atKOOhUaphg';
+
+	async function getImageForWord(word) {
+		try {
+			// Tìm kiếm ảnh dựa trên từ tiếng Anh
+			const englishWord = await translateToEnglish(word);
+			const response = await fetch(
+				`https://api.unsplash.com/search/photos?query=${englishWord}&per_page=1`,
+				{
+					headers: {
+						Authorization: `Client-ID ${UNSPLASH_ACCESS_KEY}`,
+					},
+				}
+			);
+			const data = await response.json();
+
+			if (data.results && data.results.length > 0) {
+				return data.results[0].urls.small;
+			}
+			return null;
+		} catch (error) {
+			console.error('Error fetching image:', error);
+			return null;
+		}
+	}
+	// Hàm dịch từ tiếng Nhật sang tiếng Anh sử dụng cache, từ điển nội bộ và MyMemory API
+	async function translateToEnglish(japaneseWord) {
+		try {
+			// Kiểm tra cache trước
+			const cachedTranslation = localStorage.getItem(
+				`translation_${japaneseWord}`
+			);
+			if (cachedTranslation) {
+				return JSON.parse(cachedTranslation);
+			}
+
+			// Từ điển nội bộ JLPT N5 (mở rộng)
+			const dictionary = {
+				わたし: 'i',
+				あなた: 'you',
+				かれ: 'he',
+				かのじょ: 'she',
+				わたしたち: 'we',
+				みんな: 'everyone',
+				なに: 'what',
+				どこ: 'where',
+				いつ: 'when',
+				どうして: 'why',
+				いぬ: 'dog',
+				ねこ: 'cat',
+				くるま: 'car',
+				じてんしゃ: 'bicycle',
+				でんしゃ: 'train',
+				ひこうき: 'airplane',
+				みず: 'water',
+				ごはん: 'rice / meal',
+				たべる: 'eat',
+				のむ: 'drink',
+				はなす: 'speak',
+				きく: 'listen / ask',
+				みる: 'see',
+				いく: 'go',
+				くる: 'come',
+				する: 'do',
+				ある: 'exist (inanimate)',
+				いる: 'exist (animate)',
+				おはようございます: 'good morning',
+				こんにちは: 'hello',
+				こんばんは: 'good evening',
+				さようなら: 'goodbye',
+				ありがとう: 'thank you',
+				すみません: 'excuse me / sorry',
+				はい: 'yes',
+				いいえ: 'no',
+				いち: 'one',
+				に: 'two',
+				さん: 'three',
+				よん: 'four',
+				ご: 'five',
+				ろく: 'six',
+				なな: 'seven',
+				はち: 'eight',
+				きゅう: 'nine',
+				じゅう: 'ten',
+				たかい: 'expensive / tall',
+				やすい: 'cheap / inexpensive',
+				おおきい: 'big',
+				ちいさい: 'small',
+				あたらしい: 'new',
+				ふるい: 'old',
+				いい: 'good',
+				わるい: 'bad',
+				たのしい: 'fun',
+				さびしい: 'lonely',
+				うれしい: 'happy',
+				かなしい: 'sad',
+				せんせい: 'teacher',
+				がくせい: 'student',
+				がっこう: 'school',
+				ともだち: 'friend',
+				いえ: 'house',
+				へや: 'room',
+				でんわ: 'telephone',
+				じしょ: 'dictionary',
+				ほん: 'book',
+				えんぴつ: 'pencil',
+				かばん: 'bag',
+				シャツ: 'shirt',
+				ズボン: 'pants',
+				くつ: 'shoes',
+				とけい: 'watch / clock',
+				としょかん: 'library',
+				ぎんこう: 'bank',
+				びょういん: 'hospital',
+				スーパー: 'supermarket',
+				レストラン: 'restaurant',
+				いま: 'now',
+				きょう: 'today',
+				あした: 'tomorrow',
+				きのう: 'yesterday',
+				まいにち: 'every day',
+				しゅうまつ: 'weekend',
+				ひる: 'noon',
+				よる: 'night',
+				あさ: 'morning',
+				ときどき: 'sometimes',
+				いつも: 'always',
+				ぜんぜん: 'never',
+				すこし: 'a little',
+				たくさん: 'a lot',
+				いっしょに: 'together',
+				ひとりで: 'alone',
+			};
+
+			// Nếu từ có trong từ điển, trả về từ đó
+			if (dictionary[japaneseWord]) {
+				localStorage.setItem(
+					`translation_${japaneseWord}`,
+					JSON.stringify(dictionary[japaneseWord])
+				);
+				return dictionary[japaneseWord];
+			}
+
+			// Nếu không có, dùng API
+			const response = await fetch(
+				`https://api.mymemory.translated.net/get?q=${encodeURIComponent(
+					japaneseWord
+				)}&langpair=ja|en`
+			);
+			const data = await response.json();
+
+			if (data.responseData?.translatedText) {
+				const translation =
+					data.responseData.translatedText.toLowerCase();
+				localStorage.setItem(
+					`translation_${japaneseWord}`,
+					JSON.stringify(translation)
+				);
+				return translation;
+			}
+
+			// Fallback nếu không dịch được
+			return japaneseWord;
+		} catch (error) {
+			console.error('Translation error:', error);
+			return japaneseWord;
+		}
+	}
 
 	function updateCard() {
 		const vocab = currentQuizVocab[currentCardIndex];
-		document.querySelector('.flashcard-front .word').textContent =
-			vocab.word;
-		document.querySelector('.flashcard-back .meaning').textContent =
-			vocab.meaning;
+		const wordElement = document.querySelector('.flashcard-front .word');
+		const meaningElement = document.querySelector(
+			'.flashcard-back .meaning'
+		);
+		const illustrationElement = document.querySelector(
+			'.illustration-image'
+		);
+
+		wordElement.textContent = vocab.word;
+		meaningElement.textContent = vocab.meaning;
+
+		// Lấy và hiển thị hình ảnh
+		getImageForWord(vocab.word).then((imageUrl) => {
+			if (imageUrl) {
+				illustrationElement.style.backgroundImage = `url(${imageUrl})`;
+				illustrationElement.style.display = 'block';
+			} else {
+				illustrationElement.style.display = 'none';
+			}
+		});
+
 		document.querySelector('.flashcard').classList.remove('flipped');
+		document.querySelector('.speak-btn').onclick = () =>
+			speakJapanese(vocab.word);
 	}
+
+	// Xử lý phát âm
+	let isSpeaking = false;
+
+	async function playWord(text, rate = 0.7) {
+		return new Promise((resolve, reject) => {
+			if (isSpeaking) {
+				responsiveVoice.cancel();
+			}
+
+			isSpeaking = true;
+			responsiveVoice.speak(text, 'Japanese Female', {
+				rate: rate,
+				pitch: 1.0,
+				volume: 1.0,
+				onend: () => {
+					isSpeaking = false;
+					resolve();
+				},
+				onerror: (e) => {
+					isSpeaking = false;
+					reject(e);
+				},
+			});
+		});
+	}
+
+	// Phát âm tiếng Nhật
+	window.speakJapanese = async function (word) {
+		try {
+			await playWord(word);
+		} catch (error) {
+			console.error('Lỗi phát âm:', error);
+		}
+	};
 
 	// Close modal when clicking outside
 	window.onclick = function (event) {
@@ -323,4 +553,24 @@ document.addEventListener('DOMContentLoaded', () => {
 			modal.style.display = 'none';
 		}
 	};
+
+	// Welcome modal logic
+	const welcomeModal = document.getElementById('welcomeModal');
+	const startLearningBtn = document.getElementById('startLearningBtn');
+
+	if (!localStorage.getItem('jlptN5WelcomeShown')) {
+		welcomeModal.style.display = 'flex';
+		// Tự động ẩn sau 3s
+		setTimeout(() => {
+			welcomeModal.style.display = 'none';
+			localStorage.setItem('jlptN5WelcomeShown', 'yes');
+		}, 3000);
+	} else {
+		welcomeModal.style.display = 'none';
+	}
+
+	startLearningBtn.addEventListener('click', () => {
+		welcomeModal.style.display = 'none';
+		localStorage.setItem('jlptN5WelcomeShown', 'yes');
+	});
 });

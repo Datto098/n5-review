@@ -12,6 +12,7 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<script src="https://code.responsivevoice.org/responsivevoice.js?key=Si3RSTBN"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -36,6 +37,10 @@
 					<div class="flashcard-inner">
 						<div class="flashcard-front">
 							<p class="word"></p>
+							<div class="illustration-image"></div>
+							<button class="speak-btn" title="Phát âm">
+								<i class="fa-solid fa-volume-high"></i>
+							</button>
 						</div>
 						<div class="flashcard-back">
 							<p class="meaning"></p>
@@ -54,6 +59,22 @@
 				<i class="fa-solid fa-house"></i>
 			</span>
 		</button>
+
+		<!-- Welcome Modal -->
+		<div class="welcome-modal" id="welcomeModal">
+			<div class="welcome-content">
+				<h1>ようこそ！</h1>
+				<p>
+					Chào mừng bạn đến với khoá học JLPT N5.<br />
+					<span style="font-size: 1.2em; color: #4f46e5"
+						>一緒に日本語を勉強しましょう！</span
+					>
+				</p>
+				<button id="startLearningBtn">Bắt đầu học</button>
+			</div>
+		</div>
+		<!-- End Welcome Modal -->
+
 		<script src="script.js"></script>
 	</body>
 </html>

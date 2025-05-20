@@ -5,26 +5,32 @@
     "vocabulary": [
       {
         "word": "わたし",
+        "romaji": "watashi",
         "meaning": "tôi"
       },
       {
         "word": "あなた",
+        "romaji": "anata",
         "meaning": "bạn"
       },
       {
         "word": "おはようございます",
+        "romaji": "o ha you go za i ma su",
         "meaning": "chào buổi sáng"
       },
       {
         "word": "こんにちは",
+        "romaji": "ko n ni chi wa",
         "meaning": "xin chào"
       },
       {
         "word": "こんばんは",
+        "romaji": "ko n ba n wa",
         "meaning": "chào buổi tối"
       },
       {
         "word": "さようなら",
+        "romaji": "sa yo u na ra",
         "meaning": "tạm biệt"
       }
     ],
