@@ -1,0 +1,682 @@
+/* Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #4f46e5;
+    --primary-hover: #4338ca;
+    --success-color: #22c55e;
+    --danger-color: #ef4444;
+    --border-radius: 12px;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --scrollbar-width: 8px;
+    --scrollbar-track: #f1f1f1;
+    --scrollbar-thumb: #c1c1c1;
+    --scrollbar-thumb-hover: #a1a1a1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f9fafb;
+    color: #1f2937;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.sidebar {
+    width: 300px;
+    background-color: white;
+    padding: 24px;
+    border-right: 1px solid #e5e7eb;
+    box-shadow: var(--shadow-sm);
+    overflow-y: auto;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* Custom Scrollbar Styles */
+.sidebar::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 4px;
+    border: 2px solid var(--scrollbar-track);
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
+.content {
+    flex: 1;
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lesson-item {
+    padding: 12px 16px;
+    margin: 8px 0;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+}
+
+.lesson-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+}
+
+.lesson-item.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.lesson-item.locked {
+    opacity: 0.7;
+    cursor: not-allowed;
+    background-color: #f3f4f6;
+}
+
+.vocab-list,
+.grammar-list {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 24px;
+    margin: 24px 0;
+    box-shadow: var(--shadow-sm);
+}
+
+.vocab-item,
+.grammar-item {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--border-radius);
+    padding: 16px;
+    margin: 12px 0;
+    transition: var(--transition);
+}
+
+.vocab-item:hover,
+.grammar-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
+.example {
+    margin-top: 12px;
+    padding: 16px;
+    background-color: #f3f4f6;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--primary-color);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #374151;
+    margin: 20px 0 16px;
+}
+
+.start-quiz-btn,
+.take-test-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.start-quiz-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.start-quiz-btn:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+.take-test-btn {
+    background-color: var(--danger-color);
+    color: white;
+    margin-left: 12px;
+}
+
+.take-test-btn:hover {
+    background-color: #dc2626;
+    transform: translateY(-2px);
+}
+
+.completion-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: var(--success-color);
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.score-display {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+/* Quiz and Test Modals */
+.quiz-modal,
+.test-modal,
+.result-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quiz-modal {
+    display: none;
+}
+
+
+
+.test-content h3 {
+    text-align: center;
+}
+
+.quiz-content,
+.test-content,
+.result-content {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: modalSlideIn 0.3s ease;
+    padding-right: calc(24px + var(--scrollbar-width));
+
+}
+
+/* Custom Scrollbar Styles */
+.quiz-content::-webkit-scrollbar,
+.test-content::-webkit-scrollbar,
+.result-content::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+}
+
+.quiz-content::-webkit-scrollbar-track,
+.test-content::-webkit-scrollbar-track,
+.result-content::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    border-radius: 4px;
+}
+
+.quiz-content::-webkit-scrollbar-thumb,
+.test-content::-webkit-scrollbar-thumb,
+.result-content::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 4px;
+    border: 2px solid var(--scrollbar-track);
+}
+
+.quiz-content::-webkit-scrollbar-thumb:hover,
+.test-content::-webkit-scrollbar-thumb:hover,
+.result-content::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
+/* Hide scrollbar when not in use */
+.sidebar,
+.quiz-content,
+.test-content,
+.result-content {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Show scrollbar on hover */
+.sidebar:hover,
+.quiz-content:hover,
+.test-content:hover,
+.result-content:hover {
+    -ms-overflow-style: auto;
+    scrollbar-width: thin;
+}
+
+.quiz-header,
+.test-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.quiz-header h3,
+.test-header h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #111827;
+}
+
+.close-quiz,
+.close-test {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #6b7280;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.close-quiz:hover,
+.close-test:hover {
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+.flashcard {
+    height: 300px;
+    perspective: 1500px;
+    margin: 24px;
+}
+
+.flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    box-shadow: var(--shadow-md);
+    border-radius: var(--border-radius);
+}
+
+.flashcard.flipped .flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: var(--border-radius);
+    background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+}
+
+.flashcard-back {
+    transform: rotateY(180deg);
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+}
+
+.quiz-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-top: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.quiz-controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.quiz-controls button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+.quiz-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Test specific styles */
+.question {
+    padding: 24px;
+    margin: 16px 24px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.question:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+}
+
+.question p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.question label {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    margin: 8px 0;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.question label:hover {
+    background-color: #f3f4f6;
+    border-color: var(--primary-color);
+}
+
+.question input[type="radio"] {
+    margin-right: 12px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.submit-test {
+    display: block;
+    width: calc(100% - 48px);
+    margin: 24px;
+    padding: 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.submit-test:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+/* Result modal specific styles */
+.result-content {
+    text-align: center;
+    padding: 32px;
+}
+
+.result-content h3 {
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.result-content .score {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 24px 0;
+}
+
+.result-content .success {
+    color: var(--success-color);
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.result-content .failure {
+    color: var(--danger-color);
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.result-content button {
+    padding: 12px 24px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.result-content button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+@keyframes modalSlideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+    z-index: 99;
+}
+
+.back-to-top:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+.back-to-top.visible {
+    display: flex;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 16px;
+    }
+
+    .content {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .quiz-content,
+    .test-content,
+    .result-content {
+        width: 95%;
+        padding: 16px;
+    }
+
+    .flashcard {
+        height: 250px;
+        margin: 16px;
+    }
+
+    .flashcard-front,
+    .flashcard-back {
+        font-size: 24px;
+    }
+
+    .question {
+        margin: 12px;
+        padding: 16px;
+    }
+
+    .submit-test {
+        width: calc(100% - 24px);
+        margin: 12px;
+    }
+
+    .quiz-controls {
+        padding: 16px;
+    }
+
+    .quiz-controls button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .flashcard {
+        height: 200px;
+    }
+
+    .flashcard-front,
+    .flashcard-back {
+        font-size: 20px;
+    }
+
+    .question label {
+        padding: 8px 12px;
+    }
+
+    .result-content .score {
+        font-size: 36px;
+    }
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.vocab-item,
+.grammar-item,
+.question {
+    animation: slideIn 0.3s ease;
+}

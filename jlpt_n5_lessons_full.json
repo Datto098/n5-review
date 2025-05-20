@@ -1,0 +1,1252 @@
+[
+  {
+    "lesson": 1,
+    "title": "Bài 1: Chào hỏi và Giới thiệu",
+    "vocabulary": [
+      {
+        "word": "わたし",
+        "meaning": "tôi"
+      },
+      {
+        "word": "あなた",
+        "meaning": "bạn"
+      },
+      {
+        "word": "おはようございます",
+        "meaning": "chào buổi sáng"
+      },
+      {
+        "word": "こんにちは",
+        "meaning": "xin chào"
+      },
+      {
+        "word": "こんばんは",
+        "meaning": "chào buổi tối"
+      },
+      {
+        "word": "さようなら",
+        "meaning": "tạm biệt"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜です",
+        "meaning": "Là (động từ be)",
+        "example": {
+          "japanese": "わたしは学生です",
+          "hiragana": "わたしはがくせいです",
+          "vietnamese": "Tôi là học sinh"
+        }
+      },
+      {
+        "structure": "〜は (particle は)",
+        "meaning": "Đánh dấu chủ ngữ trong câu",
+        "example": {
+          "japanese": "私は田中です",
+          "hiragana": "わたしはたなかです",
+          "vietnamese": "Tôi là Tanaka"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "title": "Bài 2: Đồ vật và Địa điểm",
+    "vocabulary": [
+      {
+        "word": "これ",
+        "meaning": "cái này"
+      },
+      {
+        "word": "それ",
+        "meaning": "cái đó"
+      },
+      {
+        "word": "あれ",
+        "meaning": "cái kia"
+      },
+      {
+        "word": "ほん",
+        "meaning": "sách"
+      },
+      {
+        "word": "えんぴつ",
+        "meaning": "bút chì"
+      },
+      {
+        "word": "つくえ",
+        "meaning": "bàn"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "これ／それ／あれ　は　〜です",
+        "meaning": "Đây/đó/kia là ~",
+        "example": {
+          "japanese": "これは本です",
+          "hiragana": "これはほんです",
+          "vietnamese": "Đây là sách"
+        }
+      },
+      {
+        "structure": "〜の (particle の)",
+        "meaning": "Chỉ sự sở hữu",
+        "example": {
+          "japanese": "私の本",
+          "hiragana": "わたしのほん",
+          "vietnamese": "Sách của tôi"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "title": "Bài 3: Thời gian và Hoạt động",
+    "vocabulary": [
+      {
+        "word": "いま",
+        "meaning": "bây giờ"
+      },
+      {
+        "word": "じかん",
+        "meaning": "thời gian"
+      },
+      {
+        "word": "あさ",
+        "meaning": "buổi sáng"
+      },
+      {
+        "word": "ひる",
+        "meaning": "buổi trưa"
+      },
+      {
+        "word": "よる",
+        "meaning": "buổi tối"
+      },
+      {
+        "word": "〜じ",
+        "meaning": "~giờ"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜ます",
+        "meaning": "Động từ thể lịch sự",
+        "example": {
+          "japanese": "私は7時に起きます",
+          "hiragana": "わたしはしちじにおきます",
+          "vietnamese": "Tôi thức dậy lúc 7 giờ"
+        }
+      },
+      {
+        "structure": "〜に (particle に)",
+        "meaning": "Chỉ thời gian",
+        "example": {
+          "japanese": "9時に学校に行きます",
+          "hiragana": "くじにがっこうにいきます",
+          "vietnamese": "Tôi đi học lúc 9 giờ"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "title": "Bài 4: Hoạt động và Sở thích",
+    "vocabulary": [
+      {
+        "word": "たべる",
+        "meaning": "ăn"
+      },
+      {
+        "word": "のむ",
+        "meaning": "uống"
+      },
+      {
+        "word": "みる",
+        "meaning": "xem"
+      },
+      {
+        "word": "よむ",
+        "meaning": "đọc"
+      },
+      {
+        "word": "かく",
+        "meaning": "viết"
+      },
+      {
+        "word": "きく",
+        "meaning": "nghe"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜ます／〜ません",
+        "meaning": "Thể khẳng định/phủ định lịch sự",
+        "example": {
+          "japanese": "テレビを見ます／見ません",
+          "hiragana": "てれびをみます／みません",
+          "vietnamese": "Tôi xem TV / Tôi không xem TV"
+        }
+      },
+      {
+        "structure": "〜を (particle を)",
+        "meaning": "Chỉ tân ngữ của động từ",
+        "example": {
+          "japanese": "本を読みます",
+          "hiragana": "ほんをよみます",
+          "vietnamese": "Tôi đọc sách"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "title": "Bài 5: Địa điểm và Phương hướng",
+    "vocabulary": [
+      {
+        "word": "うえ",
+        "meaning": "trên"
+      },
+      {
+        "word": "した",
+        "meaning": "dưới"
+      },
+      {
+        "word": "まえ",
+        "meaning": "trước"
+      },
+      {
+        "word": "うしろ",
+        "meaning": "sau"
+      },
+      {
+        "word": "みぎ",
+        "meaning": "phải"
+      },
+      {
+        "word": "ひだり",
+        "meaning": "trái"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜に あります／います",
+        "meaning": "Có (đồ vật/người) ở ~",
+        "example": {
+          "japanese": "本は机の上にあります",
+          "hiragana": "ほんはつくえのうえにあります",
+          "vietnamese": "Sách ở trên bàn"
+        }
+      },
+      {
+        "structure": "〜で (particle で)",
+        "meaning": "Chỉ nơi diễn ra hành động",
+        "example": {
+          "japanese": "公園で遊びます",
+          "hiragana": "こうえんであそびます",
+          "vietnamese": "Chơi ở công viên"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "title": "Bài 6: Tính từ và Mô tả",
+    "vocabulary": [
+      {
+        "word": "おおきい",
+        "meaning": "to, lớn"
+      },
+      {
+        "word": "ちいさい",
+        "meaning": "nhỏ"
+      },
+      {
+        "word": "たかい",
+        "meaning": "cao, đắt"
+      },
+      {
+        "word": "やすい",
+        "meaning": "rẻ"
+      },
+      {
+        "word": "むずかしい",
+        "meaning": "khó"
+      },
+      {
+        "word": "やさしい",
+        "meaning": "dễ, hiền lành"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "い形容詞 (Tính từ đuôi い)",
+        "meaning": "Cách chia tính từ đuôi い",
+        "example": {
+          "japanese": "この本は大きいです",
+          "hiragana": "このほんはおおきいです",
+          "vietnamese": "Quyển sách này to"
+        }
+      },
+      {
+        "structure": "な形容詞 (Tính từ đuôi な)",
+        "meaning": "Cách chia tính từ đuôi な",
+        "example": {
+          "japanese": "この公園は静かです",
+          "hiragana": "このこうえんはしずかです",
+          "vietnamese": "Công viên này yên tĩnh"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "title": "Bài 7: Số đếm và Đơn vị",
+    "vocabulary": [
+      {
+        "word": "いち",
+        "meaning": "một"
+      },
+      {
+        "word": "に",
+        "meaning": "hai"
+      },
+      {
+        "word": "さん",
+        "meaning": "ba"
+      },
+      {
+        "word": "〜えん",
+        "meaning": "đơn vị tiền Yên"
+      },
+      {
+        "word": "〜にん",
+        "meaning": "đơn vị đếm người"
+      },
+      {
+        "word": "〜まい",
+        "meaning": "đơn vị đếm vật mỏng"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "数字＋助数詞 (Số + Trợ số từ)",
+        "meaning": "Cách đếm đồ vật",
+        "example": {
+          "japanese": "本を3冊買います",
+          "hiragana": "ほんをさんさつかいます",
+          "vietnamese": "Tôi mua 3 quyển sách"
+        }
+      },
+      {
+        "structure": "いくら (Hỏi giá)",
+        "meaning": "Cách hỏi giá tiền",
+        "example": {
+          "japanese": "このペンはいくらですか",
+          "hiragana": "このペンはいくらですか",
+          "vietnamese": "Cây bút này giá bao nhiêu?"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "title": "Bài 8: Thời gian và Lịch",
+    "vocabulary": [
+      {
+        "word": "げつようび",
+        "meaning": "thứ hai"
+      },
+      {
+        "word": "かようび",
+        "meaning": "thứ ba"
+      },
+      {
+        "word": "すいようび",
+        "meaning": "thứ tư"
+      },
+      {
+        "word": "もくようび",
+        "meaning": "thứ năm"
+      },
+      {
+        "word": "きのう",
+        "meaning": "hôm qua"
+      },
+      {
+        "word": "あした",
+        "meaning": "ngày mai"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜から〜まで",
+        "meaning": "Từ... đến...",
+        "example": {
+          "japanese": "9時から5時まで働きます",
+          "hiragana": "くじからごじまではたらきます",
+          "vietnamese": "Làm việc từ 9 giờ đến 5 giờ"
+        }
+      },
+      {
+        "structure": "いつ",
+        "meaning": "Khi nào",
+        "example": {
+          "japanese": "いつ日本に行きますか",
+          "hiragana": "いつにほんにいきますか",
+          "vietnamese": "Khi nào bạn đi Nhật?"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "title": "Bài 9: Động từ Nhóm 1",
+    "vocabulary": [
+      {
+        "word": "かく",
+        "meaning": "viết"
+      },
+      {
+        "word": "およぐ",
+        "meaning": "bơi"
+      },
+      {
+        "word": "のむ",
+        "meaning": "uống"
+      },
+      {
+        "word": "はなす",
+        "meaning": "nói"
+      },
+      {
+        "word": "きく",
+        "meaning": "nghe"
+      },
+      {
+        "word": "よむ",
+        "meaning": "đọc"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "動詞て形 (Động từ thể て)",
+        "meaning": "Nối các hành động",
+        "example": {
+          "japanese": "本を読んで、音楽を聞きます",
+          "hiragana": "ほんをよんで、おんがくをききます",
+          "vietnamese": "Đọc sách và nghe nhạc"
+        }
+      },
+      {
+        "structure": "〜ています",
+        "meaning": "Đang làm gì",
+        "example": {
+          "japanese": "今テレビを見ています",
+          "hiragana": "いまテレビをみています",
+          "vietnamese": "Bây giờ đang xem TV"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "title": "Bài 10: Khả năng và Có thể",
+    "vocabulary": [
+      {
+        "word": "できます",
+        "meaning": "có thể làm được"
+      },
+      {
+        "word": "わかります",
+        "meaning": "hiểu"
+      },
+      {
+        "word": "じょうず",
+        "meaning": "giỏi"
+      },
+      {
+        "word": "へた",
+        "meaning": "kém"
+      },
+      {
+        "word": "すこし",
+        "meaning": "một chút"
+      },
+      {
+        "word": "とても",
+        "meaning": "rất"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜ことができます",
+        "meaning": "Có thể làm được ~",
+        "example": {
+          "japanese": "日本語を話すことができます",
+          "hiragana": "にほんごをはなすことができます",
+          "vietnamese": "Có thể nói tiếng Nhật"
+        }
+      },
+      {
+        "structure": "〜が上手です／下手です",
+        "meaning": "Giỏi/kém về việc gì",
+        "example": {
+          "japanese": "私は料理が上手です",
+          "hiragana": "わたしはりょうりがじょうずです",
+          "vietnamese": "Tôi giỏi nấu ăn"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "title": "Bài 11: Sở thích và Mong muốn",
+    "vocabulary": [
+      {
+        "word": "すき",
+        "meaning": "thích"
+      },
+      {
+        "word": "きらい",
+        "meaning": "ghét"
+      },
+      {
+        "word": "ほしい",
+        "meaning": "muốn có"
+      },
+      {
+        "word": "たべもの",
+        "meaning": "đồ ăn"
+      },
+      {
+        "word": "のみもの",
+        "meaning": "đồ uống"
+      },
+      {
+        "word": "えいが",
+        "meaning": "phim"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜が好きです／嫌いです",
+        "meaning": "Thích/Không thích cái gì",
+        "example": {
+          "japanese": "私は寿司が好きです",
+          "hiragana": "わたしはすしがすきです",
+          "vietnamese": "Tôi thích sushi"
+        }
+      },
+      {
+        "structure": "〜が欲しいです",
+        "meaning": "Muốn có cái gì",
+        "example": {
+          "japanese": "新しい車が欲しいです",
+          "hiragana": "あたらしいくるまがほしいです",
+          "vietnamese": "Tôi muốn có xe mới"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "title": "Bài 12: Quá khứ và Hiện tại",
+    "vocabulary": [
+      {
+        "word": "きのう",
+        "meaning": "hôm qua"
+      },
+      {
+        "word": "せんしゅう",
+        "meaning": "tuần trước"
+      },
+      {
+        "word": "せんげつ",
+        "meaning": "tháng trước"
+      },
+      {
+        "word": "きょねん",
+        "meaning": "năm ngoái"
+      },
+      {
+        "word": "いく",
+        "meaning": "đi"
+      },
+      {
+        "word": "くる",
+        "meaning": "đến"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "動詞た形 (Động từ thì quá khứ)",
+        "meaning": "Thể hiện hành động đã xảy ra",
+        "example": {
+          "japanese": "昨日映画を見ました",
+          "hiragana": "きのうえいがをみました",
+          "vietnamese": "Hôm qua tôi đã xem phim"
+        }
+      },
+      {
+        "structure": "〜ませんでした",
+        "meaning": "Phủ định quá khứ",
+        "example": {
+          "japanese": "昨日学校に行きませんでした",
+          "hiragana": "きのうがっこうにいきませんでした",
+          "vietnamese": "Hôm qua tôi đã không đi học"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "title": "Bài 13: So sánh",
+    "vocabulary": [
+      {
+        "word": "もっと",
+        "meaning": "hơn nữa"
+      },
+      {
+        "word": "いちばん",
+        "meaning": "nhất"
+      },
+      {
+        "word": "おおい",
+        "meaning": "nhiều"
+      },
+      {
+        "word": "すくない",
+        "meaning": "ít"
+      },
+      {
+        "word": "ながい",
+        "meaning": "dài"
+      },
+      {
+        "word": "みじかい",
+        "meaning": "ngắn"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜より",
+        "meaning": "So sánh hơn",
+        "example": {
+          "japanese": "日本語は英語より難しいです",
+          "hiragana": "にほんごはえいごよりむずかしいです",
+          "vietnamese": "Tiếng Nhật khó hơn tiếng Anh"
+        }
+      },
+      {
+        "structure": "〜が一番",
+        "meaning": "So sánh nhất",
+        "example": {
+          "japanese": "この店のラーメンが一番おいしいです",
+          "hiragana": "このみせのラーメンがいちばんおいしいです",
+          "vietnamese": "Ramen của cửa hàng này ngon nhất"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "title": "Bài 14: Lời mời và Đề nghị",
+    "vocabulary": [
+      {
+        "word": "いっしょに",
+        "meaning": "cùng nhau"
+      },
+      {
+        "word": "ちょっと",
+        "meaning": "một chút"
+      },
+      {
+        "word": "まだ",
+        "meaning": "còn, chưa"
+      },
+      {
+        "word": "もう",
+        "meaning": "đã, rồi"
+      },
+      {
+        "word": "どうぞ",
+        "meaning": "xin mời"
+      },
+      {
+        "word": "よかったら",
+        "meaning": "nếu được"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜ませんか",
+        "meaning": "Rủ, mời làm gì",
+        "example": {
+          "japanese": "映画を見に行きませんか",
+          "hiragana": "えいがをみにいきませんか",
+          "vietnamese": "Chúng ta đi xem phim không?"
+        }
+      },
+      {
+        "structure": "〜ましょう",
+        "meaning": "Rủ, đề nghị cùng làm gì",
+        "example": {
+          "japanese": "一緒に食べましょう",
+          "hiragana": "いっしょにたべましょう",
+          "vietnamese": "Hãy cùng ăn nào"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "title": "Bài 15: Ý định và Dự định",
+    "vocabulary": [
+      {
+        "word": "つもり",
+        "meaning": "dự định"
+      },
+      {
+        "word": "たぶん",
+        "meaning": "có lẽ"
+      },
+      {
+        "word": "りょこう",
+        "meaning": "du lịch"
+      },
+      {
+        "word": "けっこん",
+        "meaning": "kết hôn"
+      },
+      {
+        "word": "しごと",
+        "meaning": "công việc"
+      },
+      {
+        "word": "べんきょう",
+        "meaning": "học tập"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜つもりです",
+        "meaning": "Dự định làm gì",
+        "example": {
+          "japanese": "日本へ行くつもりです",
+          "hiragana": "にほんへいくつもりです",
+          "vietnamese": "Tôi dự định đi Nhật"
+        }
+      },
+      {
+        "structure": "〜と思います",
+        "meaning": "Nghĩ rằng sẽ làm gì",
+        "example": {
+          "japanese": "明日雨が降ると思います",
+          "hiragana": "あしたあめがふるとおもいます",
+          "vietnamese": "Tôi nghĩ ngày mai trời sẽ mưa"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 16,
+    "title": "Bài 16: Nguyên nhân và Kết quả",
+    "vocabulary": [
+      {
+        "word": "どうして",
+        "meaning": "tại sao"
+      },
+      {
+        "word": "から",
+        "meaning": "vì, bởi vì"
+      },
+      {
+        "word": "だから",
+        "meaning": "vì thế"
+      },
+      {
+        "word": "びょうき",
+        "meaning": "bệnh"
+      },
+      {
+        "word": "いそがしい",
+        "meaning": "bận"
+      },
+      {
+        "word": "つかれた",
+        "meaning": "mệt"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜から",
+        "meaning": "Bởi vì, vì",
+        "example": {
+          "japanese": "病気だから、学校を休みます",
+          "hiragana": "びょうきだから、がっこうをやすみます",
+          "vietnamese": "Vì bị ốm nên nghỉ học"
+        }
+      },
+      {
+        "structure": "〜ので",
+        "meaning": "Vì, do đó",
+        "example": {
+          "japanese": "雨が降ったので、家にいました",
+          "hiragana": "あめがふったので、いえにいました",
+          "vietnamese": "Vì trời mưa nên ở nhà"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 17,
+    "title": "Bài 17: Yêu cầu và Mệnh lệnh",
+    "vocabulary": [
+      {
+        "word": "ください",
+        "meaning": "làm ơn, xin hãy"
+      },
+      {
+        "word": "だめ",
+        "meaning": "không được"
+      },
+      {
+        "word": "いけません",
+        "meaning": "không được phép"
+      },
+      {
+        "word": "まつ",
+        "meaning": "đợi, chờ"
+      },
+      {
+        "word": "とめる",
+        "meaning": "dừng lại"
+      },
+      {
+        "word": "はいる",
+        "meaning": "vào"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜てください",
+        "meaning": "Xin hãy làm gì",
+        "example": {
+          "japanese": "ここで待ってください",
+          "hiragana": "ここでまってください",
+          "vietnamese": "Xin hãy đợi ở đây"
+        }
+      },
+      {
+        "structure": "〜てはいけません",
+        "meaning": "Không được phép làm gì",
+        "example": {
+          "japanese": "ここで写真を撮ってはいけません",
+          "hiragana": "ここでしゃしんをとってはいけません",
+          "vietnamese": "Không được chụp ảnh ở đây"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 18,
+    "title": "Bài 18: Thời điểm và Khoảng thời gian",
+    "vocabulary": [
+      {
+        "word": "とき",
+        "meaning": "khi, lúc"
+      },
+      {
+        "word": "あいだ",
+        "meaning": "trong khoảng"
+      },
+      {
+        "word": "ながら",
+        "meaning": "trong lúc"
+      },
+      {
+        "word": "すぐ",
+        "meaning": "ngay lập tức"
+      },
+      {
+        "word": "あとで",
+        "meaning": "sau đó"
+      },
+      {
+        "word": "まえに",
+        "meaning": "trước đó"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜とき",
+        "meaning": "Khi, lúc làm gì",
+        "example": {
+          "japanese": "日本に行くとき、カメラを買います",
+          "hiragana": "にほんにいくとき、カメラをかいます",
+          "vietnamese": "Khi đi Nhật, tôi sẽ mua máy ảnh"
+        }
+      },
+      {
+        "structure": "〜ながら",
+        "meaning": "Vừa làm gì vừa làm gì",
+        "example": {
+          "japanese": "音楽を聞きながら、勉強します",
+          "hiragana": "おんがくをききながら、べんきょうします",
+          "vietnamese": "Vừa nghe nhạc vừa học bài"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 19,
+    "title": "Bài 19: Trải nghiệm và Thói quen",
+    "vocabulary": [
+      {
+        "word": "けいけん",
+        "meaning": "kinh nghiệm"
+      },
+      {
+        "word": "しゅうかん",
+        "meaning": "thói quen"
+      },
+      {
+        "word": "まいにち",
+        "meaning": "hàng ngày"
+      },
+      {
+        "word": "まいしゅう",
+        "meaning": "hàng tuần"
+      },
+      {
+        "word": "ときどき",
+        "meaning": "thỉnh thoảng"
+      },
+      {
+        "word": "よく",
+        "meaning": "thường xuyên"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜ことがあります",
+        "meaning": "Đã từng làm gì",
+        "example": {
+          "japanese": "日本に行ったことがあります",
+          "hiragana": "にほんにいったことがあります",
+          "vietnamese": "Tôi đã từng đi Nhật"
+        }
+      },
+      {
+        "structure": "〜ことがない",
+        "meaning": "Chưa từng làm gì",
+        "example": {
+          "japanese": "すしを食べたことがありません",
+          "hiragana": "すしをたべたことがありません",
+          "vietnamese": "Tôi chưa từng ăn sushi"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 20,
+    "title": "Bài 20: Sự cho và nhận",
+    "vocabulary": [
+      {
+        "word": "あげる",
+        "meaning": "cho (người khác)"
+      },
+      {
+        "word": "くれる",
+        "meaning": "cho (tôi)"
+      },
+      {
+        "word": "もらう",
+        "meaning": "nhận được"
+      },
+      {
+        "word": "プレゼント",
+        "meaning": "quà tặng"
+      },
+      {
+        "word": "おみやげ",
+        "meaning": "quà lưu niệm"
+      },
+      {
+        "word": "かりる",
+        "meaning": "mượn"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜てあげる",
+        "meaning": "Làm giúp ai đó",
+        "example": {
+          "japanese": "友だちに日本語を教えてあげます",
+          "hiragana": "ともだちににほんごをおしえてあげます",
+          "vietnamese": "Tôi dạy tiếng Nhật cho bạn"
+        }
+      },
+      {
+        "structure": "〜てもらう",
+        "meaning": "Được ai đó làm giúp",
+        "example": {
+          "japanese": "先生に漢字を教えてもらいました",
+          "hiragana": "せんせいにかんじをおしえてもらいました",
+          "vietnamese": "Tôi được thầy dạy chữ Hán"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 21,
+    "title": "Bài 21: Khả năng và Điều kiện",
+    "vocabulary": [
+      {
+        "word": "できる",
+        "meaning": "có thể làm được"
+      },
+      {
+        "word": "むり",
+        "meaning": "không thể"
+      },
+      {
+        "word": "たいへん",
+        "meaning": "khó khăn"
+      },
+      {
+        "word": "かんたん",
+        "meaning": "dễ dàng"
+      },
+      {
+        "word": "なれる",
+        "meaning": "quen với"
+      },
+      {
+        "word": "へた",
+        "meaning": "kém"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜できます",
+        "meaning": "Có thể làm được",
+        "example": {
+          "japanese": "漢字が読めます",
+          "hiragana": "かんじがよめます",
+          "vietnamese": "Có thể đọc được chữ Hán"
+        }
+      },
+      {
+        "structure": "〜なければなりません",
+        "meaning": "Phải làm gì",
+        "example": {
+          "japanese": "宿題をしなければなりません",
+          "hiragana": "しゅくだいをしなければなりません",
+          "vietnamese": "Phải làm bài tập về nhà"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 22,
+    "title": "Bài 22: Dự định và Kế hoạch",
+    "vocabulary": [
+      {
+        "word": "よてい",
+        "meaning": "dự định"
+      },
+      {
+        "word": "けいかく",
+        "meaning": "kế hoạch"
+      },
+      {
+        "word": "たぶん",
+        "meaning": "có lẽ"
+      },
+      {
+        "word": "きっと",
+        "meaning": "chắc chắn"
+      },
+      {
+        "word": "たいてい",
+        "meaning": "thường thường"
+      },
+      {
+        "word": "おそらく",
+        "meaning": "có thể"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜予定です",
+        "meaning": "Dự định sẽ",
+        "example": {
+          "japanese": "来月日本に行く予定です",
+          "hiragana": "らいげつにほんにいくよていです",
+          "vietnamese": "Tháng sau dự định sẽ đi Nhật"
+        }
+      },
+      {
+        "structure": "〜かもしれません",
+        "meaning": "Có thể là",
+        "example": {
+          "japanese": "明日雨が降るかもしれません",
+          "hiragana": "あしたあめがふるかもしれません",
+          "vietnamese": "Ngày mai có thể trời sẽ mưa"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 23,
+    "title": "Bài 23: Phương pháp và Cách thức",
+    "vocabulary": [
+      {
+        "word": "ほうほう",
+        "meaning": "phương pháp"
+      },
+      {
+        "word": "しかた",
+        "meaning": "cách làm"
+      },
+      {
+        "word": "かんたん",
+        "meaning": "đơn giản"
+      },
+      {
+        "word": "むずかしい",
+        "meaning": "khó"
+      },
+      {
+        "word": "べんり",
+        "meaning": "tiện lợi"
+      },
+      {
+        "word": "ふべん",
+        "meaning": "bất tiện"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜方 (かた)",
+        "meaning": "Cách thức làm gì đó",
+        "example": {
+          "japanese": "漢字の書き方を教えてください",
+          "hiragana": "かんじのかきかたをおしえてください",
+          "vietnamese": "Hãy dạy tôi cách viết chữ Hán"
+        }
+      },
+      {
+        "structure": "〜やすい／にくい",
+        "meaning": "Dễ/khó làm gì",
+        "example": {
+          "japanese": "この本は読みやすいです",
+          "hiragana": "このほんはよみやすいです",
+          "vietnamese": "Quyển sách này dễ đọc"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 24,
+    "title": "Bài 24: Sự thay đổi và Chuyển biến",
+    "vocabulary": [
+      {
+        "word": "かわる",
+        "meaning": "thay đổi"
+      },
+      {
+        "word": "なる",
+        "meaning": "trở thành"
+      },
+      {
+        "word": "ちがう",
+        "meaning": "khác"
+      },
+      {
+        "word": "おなじ",
+        "meaning": "giống nhau"
+      },
+      {
+        "word": "あたらしい",
+        "meaning": "mới"
+      },
+      {
+        "word": "ふるい",
+        "meaning": "cũ"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜になる",
+        "meaning": "Trở nên, trở thành",
+        "example": {
+          "japanese": "日本語が上手になりました",
+          "hiragana": "にほんごがじょうずになりました",
+          "vietnamese": "Tôi đã trở nên giỏi tiếng Nhật"
+        }
+      },
+      {
+        "structure": "〜くなる／〜になる",
+        "meaning": "Trở nên (dùng với tính từ)",
+        "example": {
+          "japanese": "天気が寒くなりました",
+          "hiragana": "てんきがさむくなりました",
+          "vietnamese": "Thời tiết đã trở nên lạnh"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 25,
+    "title": "Bài 25: Phán đoán và Ước lượng",
+    "vocabulary": [
+      {
+        "word": "たぶん",
+        "meaning": "có lẽ"
+      },
+      {
+        "word": "かもしれません",
+        "meaning": "có thể"
+      },
+      {
+        "word": "おもう",
+        "meaning": "nghĩ"
+      },
+      {
+        "word": "だいたい",
+        "meaning": "khoảng chừng"
+      },
+      {
+        "word": "ぐらい",
+        "meaning": "khoảng"
+      },
+      {
+        "word": "ほど",
+        "meaning": "mức độ"
+      }
+    ],
+    "grammar": [
+      {
+        "structure": "〜と思います",
+        "meaning": "Tôi nghĩ rằng...",
+        "example": {
+          "japanese": "明日は雨が降ると思います",
+          "hiragana": "あしたはあめがふるとおもいます",
+          "vietnamese": "Tôi nghĩ ngày mai trời sẽ mưa"
+        }
+      },
+      {
+        "structure": "〜かもしれません",
+        "meaning": "Có thể là...",
+        "example": {
+          "japanese": "田中さんは来ないかもしれません",
+          "hiragana": "たなかさんはこないかもしれません",
+          "vietnamese": "Có thể anh Tanaka sẽ không đến"
+        }
+      }
+    ]
+  }
+]

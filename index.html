@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JLPT N5 Lessons</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar">
+				<h2>Danh sách bài học</h2>
+				<div id="lessonList"></div>
+			</div>
+			<div class="content">
+				<div id="lessonContent">
+					<h2>Chọn một bài học để xem nội dung</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="quiz-modal" id="quizModal">
+			<div class="quiz-content">
+				<div class="quiz-header">
+					<h2>Ôn tập từ vựng</h2>
+					<button class="close-quiz">&times;</button>
+				</div>
+				<div class="flashcard">
+					<div class="flashcard-inner">
+						<div class="flashcard-front">
+							<p class="word"></p>
+						</div>
+						<div class="flashcard-back">
+							<p class="meaning"></p>
+						</div>
+					</div>
+				</div>
+				<div class="quiz-controls">
+					<button id="prevCard">Trước</button>
+					<button id="flipCard">Lật thẻ</button>
+					<button id="nextCard">Tiếp</button>
+				</div>
+			</div>
+		</div>
+		<button class="back-to-top" id="backToTop">
+			<span class="material-icons">
+				<i class="fa-solid fa-house"></i>
+			</span>
+		</button>
+		<script src="script.js"></script>
+	</body>
+</html>
