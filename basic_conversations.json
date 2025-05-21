@@ -1,0 +1,501 @@
+{
+    "title": "Giao tiếp cơ bản",
+    "conversations": [
+        {
+            "id": 1,
+            "japanese": "おはようございます",
+            "hiragana": "おはようございます",
+            "vietnamese": "Chào buổi sáng (tôn trọng)",
+            "context": "Dùng khi chào buổi sáng, thể hiện sự tôn trọng"
+        },
+        {
+            "id": 2,
+            "japanese": "おはよう",
+            "hiragana": "おはよう",
+            "vietnamese": "Chào buổi sáng (thân mật)",
+            "context": "Dùng khi chào buổi sáng với bạn bè, người thân"
+        },
+        {
+            "id": 2,
+            "japanese": "こんにちは",
+            "hiragana": "こんにちは",
+            "vietnamese": "Chào buổi trưa/chiều",
+            "context": "Dùng khi chào vào buổi trưa hoặc chiều"
+        },
+        {
+            "id": 3,
+            "japanese": "こんばんは",
+            "hiragana": "こんばんは",
+            "vietnamese": "Chào buổi tối",
+            "context": "Dùng khi chào vào buổi tối"
+        },
+        {
+            "id": 4,
+            "japanese": "さようなら",
+            "hiragana": "さようなら",
+            "vietnamese": "Tạm biệt",
+            "context": "Dùng khi chia tay, không gặp lại trong thời gian dài"
+        },
+        {
+            "id": 5,
+            "japanese": "じゃあね",
+            "hiragana": "じゃあね",
+            "vietnamese": "Hẹn gặp lại",
+            "context": "Dùng khi tạm biệt thân mật, sẽ gặp lại sớm"
+        },
+        {
+            "id": 6,
+            "japanese": "はじめまして",
+            "hiragana": "はじめまして",
+            "vietnamese": "Rất vui được gặp (lần đầu)",
+            "context": "Dùng khi gặp ai đó lần đầu tiên"
+        },
+        {
+            "id": 7,
+            "japanese": "お名前は何ですか",
+            "hiragana": "おなまえはなんですか",
+            "vietnamese": "Tên bạn là gì?",
+            "context": "Dùng khi hỏi tên ai đó (lịch sự)"
+        },
+        {
+            "id": 8,
+            "japanese": "ありがとうございます",
+            "hiragana": "ありがとうございます",
+            "vietnamese": "Cảm ơn",
+            "context": "Dùng để cảm ơn (lịch sự)"
+        },
+        {
+            "id": 9,
+            "japanese": "どういたしまして",
+            "hiragana": "どういたしまして",
+            "vietnamese": "Không có chi",
+            "context": "Đáp lại khi được cảm ơn"
+        },
+        {
+            "id": 10,
+            "japanese": "すみません",
+            "hiragana": "すみません",
+            "vietnamese": "Xin lỗi/Làm phiền",
+            "context": "Dùng khi xin lỗi hoặc làm phiền ai đó"
+        },
+        {
+            "id": 11,
+            "japanese": "いってきます",
+            "hiragana": "いってきます",
+            "vietnamese": "Tôi đi đây",
+            "context": "Nói khi rời khỏi nhà"
+        },
+        {
+            "id": 12,
+            "japanese": "いってらっしゃい",
+            "hiragana": "いってらっしゃい",
+            "vietnamese": "Đi cẩn thận nhé",
+            "context": "Đáp lại khi ai đó nói 'いってきます'"
+        },
+        {
+            "id": 13,
+            "japanese": "ただいま",
+            "hiragana": "ただいま",
+            "vietnamese": "Tôi về rồi đây",
+            "context": "Nói khi trở về nhà"
+        },
+        {
+            "id": 14,
+            "japanese": "お帰りなさい",
+            "hiragana": "おかえりなさい",
+            "vietnamese": "Chào mừng trở về",
+            "context": "Đáp lại khi ai đó nói 'ただいま'"
+        },        {
+            "id": 15,
+            "japanese": "いただきます",
+            "hiragana": "いただきます",
+            "vietnamese": "Tôi xin phép dùng bữa",
+            "context": "Nói trước khi ăn"
+        },
+        {
+            "id": 16,
+            "japanese": "ごちそうさまでした",
+            "hiragana": "ごちそうさまでした",
+            "vietnamese": "Cảm ơn bữa ăn",
+            "context": "Nói sau khi ăn xong"
+        },
+        {
+            "id": 17,
+            "japanese": "おやすみなさい",
+            "hiragana": "おやすみなさい",
+            "vietnamese": "Chúc ngủ ngon",
+            "context": "Nói trước khi đi ngủ"
+        },
+        {
+            "id": 18,
+            "japanese": "失礼します",
+            "hiragana": "しつれいします",
+            "vietnamese": "Xin phép",
+            "context": "Dùng khi vào phòng hoặc rời khỏi"
+        },
+        {
+            "id": 19,
+            "japanese": "お疲れ様でした",
+            "hiragana": "おつかれさまでした",
+            "vietnamese": "Cảm ơn vì công sức của bạn",
+            "context": "Nói với người vừa hoàn thành công việc"
+        },
+        {
+            "id": 20,
+            "japanese": "頑張ってください",
+            "hiragana": "がんばってください",
+            "vietnamese": "Cố gắng lên",
+            "context": "Động viên người khác"
+        },
+        {
+            "id": 21,
+            "japanese": "よろしくお願いします",
+            "hiragana": "よろしくおねがいします",
+            "vietnamese": "Rất mong được giúp đỡ",
+            "context": "Dùng khi nhờ người khác giúp đỡ"
+        },
+        {
+            "id": 22,
+            "japanese": "申し訳ありません",
+            "hiragana": "もうしわけありません",
+            "vietnamese": "Rất xin lỗi",
+            "context": "Xin lỗi một cách trang trọng"
+        },
+        {
+            "id": 23,
+            "japanese": "ごめんなさい",
+            "hiragana": "ごめんなさい",
+            "vietnamese": "Xin lỗi",
+            "context": "Xin lỗi thông thường"
+        },
+        {
+            "id": 24,
+            "japanese": "ごめん",
+            "hiragana": "ごめん",
+            "vietnamese": "Xin lỗi (thân mật)",
+            "context": "Xin lỗi với bạn bè"
+        },
+        {
+            "id": 25,
+            "japanese": "大丈夫ですか",
+            "hiragana": "だいじょうぶですか",
+            "vietnamese": "Bạn có ổn không?",
+            "context": "Hỏi thăm tình trạng người khác"
+        },
+        {
+            "id": 26,
+            "japanese": "元気ですか",
+            "hiragana": "げんきですか",
+            "vietnamese": "Bạn khỏe không?",
+            "context": "Hỏi thăm sức khỏe"
+        },
+        {
+            "id": 27,
+            "japanese": "お元気ですか",
+            "hiragana": "おげんきですか",
+            "vietnamese": "Bạn khỏe không? (lịch sự)",
+            "context": "Hỏi thăm sức khỏe lịch sự"
+        },
+        {
+            "id": 28,
+            "japanese": "分かりました",
+            "hiragana": "わかりました",
+            "vietnamese": "Tôi hiểu rồi",
+            "context": "Xác nhận đã hiểu"
+        },
+        {
+            "id": 29,
+            "japanese": "分かりません",
+            "hiragana": "わかりません",
+            "vietnamese": "Tôi không hiểu",
+            "context": "Thông báo không hiểu"
+        },
+        {
+            "id": 30,
+            "japanese": "お願いします",
+            "hiragana": "おねがいします",
+            "vietnamese": "Làm ơn",
+            "context": "Nhờ người khác giúp đỡ"
+        },
+        {
+            "id": 31,
+            "japanese": "ただいま戻りました",
+            "hiragana": "ただいまもどりました",
+            "vietnamese": "Tôi đã trở lại",
+            "context": "Nói khi quay lại nơi làm việc"
+        },
+        {
+            "id": 32,
+            "japanese": "行ってまいります",
+            "hiragana": "いってまいります",
+            "vietnamese": "Tôi đi đây (lịch sự)",
+            "context": "Nói khi rời khỏi nơi làm việc"
+        },
+        {
+            "id": 33,
+            "japanese": "お先に失礼します",
+            "hiragana": "おさきにしつれいします",
+            "vietnamese": "Tôi xin phép về trước",
+            "context": "Nói khi về trước đồng nghiệp"
+        },
+        {
+            "id": 34,
+            "japanese": "お疲れ様です",
+            "hiragana": "おつかれさまです",
+            "vietnamese": "Bạn vất vả rồi",
+            "context": "Chào hỏi đồng nghiệp trong công ty"
+        },
+        {
+            "id": 35,
+            "japanese": "初めまして、よろしくお願いします",
+            "hiragana": "はじめまして、よろしくおねがいします",
+            "vietnamese": "Rất vui được gặp, mong được giúp đỡ",
+            "context": "Giới thiệu lần đầu gặp mặt"
+        },
+        {
+            "id": 36,
+            "japanese": "お大事に",
+            "hiragana": "おだいじに",
+            "vietnamese": "Bảo trọng nhé",
+            "context": "Chúc người khác mau khỏe"
+        },
+        {
+            "id": 37,
+            "japanese": "気をつけて",
+            "hiragana": "きをつけて",
+            "vietnamese": "Cẩn thận nhé",
+            "context": "Nhắc nhở người khác cẩn thận"
+        },
+        {
+            "id": 38,
+            "japanese": "お待たせしました",
+            "hiragana": "おまたせしました",
+            "vietnamese": "Xin lỗi đã để bạn đợi",
+            "context": "Xin lỗi vì đã để người khác chờ"
+        },
+        {
+            "id": 39,
+            "japanese": "ご注文は以上ですか",
+            "hiragana": "ごちゅうもんはいじょうですか",
+            "vietnamese": "Bạn cần gọi thêm gì nữa không?",
+            "context": "Nhân viên hỏi khách hàng"
+        },
+        {
+            "id": 40,
+            "japanese": "お会計をお願いします",
+            "hiragana": "おかいけいをおねがいします",
+            "vietnamese": "Làm ơn tính tiền",
+            "context": "Yêu cầu tính tiền ở nhà hàng"
+        },
+        {
+            "id": 41,
+            "japanese": "これをください",
+            "hiragana": "これをください",
+            "vietnamese": "Cho tôi cái này",
+            "context": "Yêu cầu mua đồ"
+        },
+        {
+            "id": 42,
+            "japanese": "いくらですか",
+            "hiragana": "いくらですか",
+            "vietnamese": "Cái này giá bao nhiêu?",
+            "context": "Hỏi giá"
+        },
+        {
+            "id": 43,
+            "japanese": "お誕生日おめでとうございます",
+            "hiragana": "おたんじょうびおめでとうございます",
+            "vietnamese": "Chúc mừng sinh nhật",
+            "context": "Chúc mừng sinh nhật người khác"
+        },
+        {
+            "id": 44,
+            "japanese": "明けましておめでとうございます",
+            "hiragana": "あけましておめでとうございます",
+            "vietnamese": "Chúc mừng năm mới",
+            "context": "Chúc mừng năm mới"
+        },
+        {
+            "id": 45,
+            "japanese": "がんばります",
+            "hiragana": "がんばります",
+            "vietnamese": "Tôi sẽ cố gắng",
+            "context": "Thể hiện quyết tâm"
+        },
+        {
+            "id": 46,
+            "japanese": "お腹が空きました",
+            "hiragana": "おなかがすきました",
+            "vietnamese": "Tôi đói bụng rồi",
+            "context": "Thông báo đói bụng"
+        },
+        {
+            "id": 47,
+            "japanese": "のどが渇きました",
+            "hiragana": "のどがかわきました",
+            "vietnamese": "Tôi khát nước",
+            "context": "Thông báo khát nước"
+        },
+        {
+            "id": 48,
+            "japanese": "疲れました",
+            "hiragana": "つかれました",
+            "vietnamese": "Tôi mệt rồi",
+            "context": "Thông báo mệt mỏi"
+        },
+        {
+            "id": 49,
+            "japanese": "気分が悪いです",
+            "hiragana": "きぶんがわるいです",
+            "vietnamese": "Tôi cảm thấy không khỏe",
+            "context": "Thông báo không khỏe"
+        },
+        {
+            "id": 50,
+            "japanese": "頭が痛いです",
+            "hiragana": "あたまがいたいです",
+            "vietnamese": "Tôi bị đau đầu",
+            "context": "Thông báo đau đầu"
+        },
+        {
+            "id": 51,
+            "japanese": "お薬を飲みましたか",
+            "hiragana": "おくすりをのみましたか",
+            "vietnamese": "Bạn đã uống thuốc chưa?",
+            "context": "Hỏi thăm việc uống thuốc"
+        },
+        {
+            "id": 52,
+            "japanese": "お大切に",
+            "hiragana": "おたいせつに",
+            "vietnamese": "Giữ gìn sức khỏe nhé",
+            "context": "Chúc người khác giữ gìn sức khỏe"
+        },
+        {
+            "id": 53,
+            "japanese": "ご馳走様でした",
+            "hiragana": "ごちそうさまでした",
+            "vietnamese": "Cảm ơn vì bữa ăn ngon",
+            "context": "Cảm ơn sau khi được mời ăn"
+        },
+        {
+            "id": 54,
+            "japanese": "美味しかったです",
+            "hiragana": "おいしかったです",
+            "vietnamese": "Rất ngon",
+            "context": "Khen đồ ăn ngon"
+        },
+        {
+            "id": 55,
+            "japanese": "お腹いっぱいです",
+            "hiragana": "おなかいっぱいです",
+            "vietnamese": "Tôi no rồi",
+            "context": "Thông báo đã no"
+        },
+        {
+            "id": 56,
+            "japanese": "遅くなってすみません",
+            "hiragana": "おそくなってすみません",
+            "vietnamese": "Xin lỗi vì đến muộn",
+            "context": "Xin lỗi vì đến muộn"
+        },
+        {
+            "id": 57,
+            "japanese": "電話番号を教えてください",
+            "hiragana": "でんわばんごうをおしえてください",
+            "vietnamese": "Cho tôi xin số điện thoại",
+            "context": "Xin số điện thoại"
+        },
+        {
+            "id": 58,
+            "japanese": "住所を教えてください",
+            "hiragana": "じゅうしょをおしえてください",
+            "vietnamese": "Cho tôi xin địa chỉ",
+            "context": "Xin địa chỉ"
+        },
+        {
+            "id": 59,
+            "japanese": "お時間はどうですか",
+            "hiragana": "おじかんはどうですか",
+            "vietnamese": "Bạn có thời gian không?",
+            "context": "Hỏi về thời gian rảnh"
+        },
+        {
+            "id": 60,
+            "japanese": "都合はどうですか",
+            "hiragana": "つごうはどうですか",
+            "vietnamese": "Lịch của bạn thế nào?",
+            "context": "Hỏi về lịch trình"
+        },
+        {
+            "id": 61,
+            "japanese": "一緒に行きませんか",
+            "hiragana": "いっしょにいきませんか",
+            "vietnamese": "Cùng đi không?",
+            "context": "Rủ đi cùng"
+        },
+        {
+            "id": 62,
+            "japanese": "お手洗いはどこですか",
+            "hiragana": "おてあらいはどこですか",
+            "vietnamese": "Nhà vệ sinh ở đâu?",
+            "context": "Hỏi đường đến nhà vệ sinh"
+        },
+        {
+            "id": 63,
+            "japanese": "駅はどこですか",
+            "hiragana": "えきはどこですか",
+            "vietnamese": "Nhà ga ở đâu?",
+            "context": "Hỏi đường đến nhà ga"
+        },
+        {
+            "id": 64,
+            "japanese": "道に迷いました",
+            "hiragana": "みちにまよいました",
+            "vietnamese": "Tôi bị lạc đường",
+            "context": "Thông báo bị lạc"
+        },
+        {
+            "id": 65,
+            "japanese": "助けてください",
+            "hiragana": "たすけてください",
+            "vietnamese": "Làm ơn giúp tôi",
+            "context": "Yêu cầu giúp đỡ khẩn cấp"
+        },
+        {
+            "id": 66,
+            "japanese": "緊急電話番号は何番ですか",
+            "hiragana": "きんきゅうでんわばんごうはなんばんですか",
+            "vietnamese": "Số điện thoại khẩn cấp là gì?",
+            "context": "Hỏi số điện thoại khẩn cấp"
+        },
+        {
+            "id": 67,
+            "japanese": "警察を呼んでください",
+            "hiragana": "けいさつをよんでください",
+            "vietnamese": "Làm ơn gọi cảnh sát",
+            "context": "Yêu cầu gọi cảnh sát"
+        },
+        {
+            "id": 68,
+            "japanese": "救急車を呼んでください",
+            "hiragana": "きゅうきゅうしゃをよんでください",
+            "vietnamese": "Làm ơn gọi xe cấp cứu",
+            "context": "Yêu cầu gọi xe cấp cứu"
+        },
+        {
+            "id": 69,
+            "japanese": "財布をなくしました",
+            "hiragana": "さいふをなくしました",
+            "vietnamese": "Tôi bị mất ví",
+            "context": "Thông báo mất ví"
+        },
+        {
+            "id": 70,
+            "japanese": "携帯電話をなくしました",
+            "hiragana": "けいたいでんわをなくしました",
+            "vietnamese": "Tôi bị mất điện thoại",
+            "context": "Thông báo mất điện thoại"
+        }
+    ]
+}

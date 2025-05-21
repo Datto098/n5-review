@@ -17,8 +17,31 @@
 	<body>
 		<div class="container">
 			<div class="sidebar">
-				<h2>Danh sách bài học</h2>
-				<div id="lessonList"></div>
+				<div class="jlpt-levels">
+					<div class="level" data-level="basic">
+						<h2>Giao tiếp cơ bản</h2>
+						<div
+							class="lesson-list"
+							id="basicConversationList"
+						></div>
+					</div>
+					<div class="level active" data-level="n5">
+						<h2>JLPT N5</h2>
+						<div class="lesson-list" id="n5LessonList"></div>
+					</div>
+					<div class="level" data-level="n4">
+						<h2>JLPT N4</h2>
+						<div class="lesson-list" id="n4LessonList">
+							<p class="coming-soon">Sắp ra mắt...</p>
+						</div>
+					</div>
+					<div class="level" data-level="n3">
+						<h2>JLPT N3</h2>
+						<div class="lesson-list" id="n3LessonList">
+							<p class="coming-soon">Sắp ra mắt...</p>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="content">
 				<div id="lessonContent">
